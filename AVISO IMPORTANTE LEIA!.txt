@@ -1,0 +1,7 @@
+Após instalar o pyinstaller, esse é o comando para gerar uma "build" do programa para rodar externamente.
+Sim, vai rodar sem precisar do vscode e afins! Mas! Só roda isso quando tu tiver certeza que fez todas as 
+modificações que tu quer. Porque ai ele vai copilar uma versão do código e gerar um programa ".exe" para 
+executar do mesmo :)
+
+
+pyinstaller --noconfirm --onefile --windowed main.py
